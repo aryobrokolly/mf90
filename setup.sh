@@ -24,10 +24,10 @@ download_files()
     echo "Update and install dependency"
     sleep 2
     opkg update && opkg install xxd
-  	echo "Downloading files from repo MF90..."
+   echo "Downloading files from repo MF90..."
     sleep 2
-   	wget -O $DIR/mf90 https://raw.githubusercontent.com/aryobrokolly/scrvp/main/log/issue/mf90 && chmod +x $DIR/mf90
-    wget -O $DIR/modpesmf90 https://raw.githubusercontent.com/aryobrokolly/modepesawat/main/bled-hgled/modpeshp && chmod +x $DIR/modpesmf90
+    wget -O $DIR/mf90 https://raw.githubusercontent.com/aryobrokolly/scrvp/main/log/issue/mf90 && chmod +x $DIR/mf90
+    wget -O $DIR/modpesmf90 https://raw.githubusercontent.com/aryobrokolly/scrvp/main/log/modpesmf90 && chmod +x $DIR/modpesmf90
     finish
 }
 
